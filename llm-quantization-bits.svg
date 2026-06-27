@@ -1,0 +1,68 @@
+<svg width="680" height="380" viewBox="0 0 680 380" xmlns="http://www.w3.org/2000/svg" font-family="'Hiragino Kaku Gothic ProN', 'BIZ UDGothic', sans-serif">
+<rect x="0" y="0" width="680" height="380" fill="#ffffff"/>
+<style>
+.t{fill:#1f2933;font-size:14px}
+.tb{fill:#1f2933;font-size:14px;font-weight:600}
+.ts{fill:#5f5e5a;font-size:12px}
+</style>
+
+<text class="ts" x="105" y="44" text-anchor="middle">精度（ビット数）</text>
+<text class="ts" x="330" y="44" text-anchor="middle">数字の刻み（表現できる段階）</text>
+<text class="ts" x="545" y="44" text-anchor="middle">容量</text>
+
+<rect x="40" y="70" width="130" height="50" rx="8" fill="#E1F5EE" stroke="#1D9E75" stroke-width="1"/>
+<text class="tb" x="105" y="92" text-anchor="middle" fill="#0F6E56">32ビット</text>
+<text class="ts" x="105" y="110" text-anchor="middle" fill="#0F6E56">FP32</text>
+<text class="tb" x="330" y="88" text-anchor="middle">0.7341892</text>
+<line x1="190" y1="107" x2="470" y2="107" stroke="#aaa9a2" stroke-width="0.8"/>
+<g stroke="#1D9E75" stroke-width="1.4">
+<line x1="190" y1="101" x2="190" y2="113"/><line x1="213" y1="101" x2="213" y2="113"/><line x1="237" y1="101" x2="237" y2="113"/><line x1="260" y1="101" x2="260" y2="113"/><line x1="283" y1="101" x2="283" y2="113"/><line x1="307" y1="101" x2="307" y2="113"/><line x1="330" y1="101" x2="330" y2="113"/><line x1="353" y1="101" x2="353" y2="113"/><line x1="377" y1="101" x2="377" y2="113"/><line x1="400" y1="101" x2="400" y2="113"/><line x1="423" y1="101" x2="423" y2="113"/><line x1="447" y1="101" x2="447" y2="113"/><line x1="470" y1="101" x2="470" y2="113"/>
+</g>
+<circle cx="394" cy="107" r="4" fill="#1D9E75"/>
+<rect x="490" y="82" width="110" height="26" rx="4" fill="none" stroke="#aaa9a2" stroke-width="0.8"/>
+<rect x="490" y="82" width="110" height="26" rx="4" fill="#5DCAA5"/>
+<text class="t" x="606" y="103" text-anchor="start">100%</text>
+
+<rect x="40" y="140" width="130" height="50" rx="8" fill="#E1F5EE" stroke="#1D9E75" stroke-width="1"/>
+<text class="tb" x="105" y="162" text-anchor="middle" fill="#0F6E56">16ビット</text>
+<text class="ts" x="105" y="180" text-anchor="middle" fill="#0F6E56">FP16</text>
+<text class="tb" x="330" y="158" text-anchor="middle">0.7342</text>
+<line x1="190" y1="177" x2="470" y2="177" stroke="#aaa9a2" stroke-width="0.8"/>
+<g stroke="#1D9E75" stroke-width="1.4">
+<line x1="190" y1="171" x2="190" y2="183"/><line x1="225" y1="171" x2="225" y2="183"/><line x1="260" y1="171" x2="260" y2="183"/><line x1="295" y1="171" x2="295" y2="183"/><line x1="330" y1="171" x2="330" y2="183"/><line x1="365" y1="171" x2="365" y2="183"/><line x1="400" y1="171" x2="400" y2="183"/><line x1="435" y1="171" x2="435" y2="183"/><line x1="470" y1="171" x2="470" y2="183"/>
+</g>
+<circle cx="394" cy="177" r="4" fill="#1D9E75"/>
+<rect x="490" y="152" width="110" height="26" rx="4" fill="none" stroke="#aaa9a2" stroke-width="0.8"/>
+<rect x="490" y="152" width="55" height="26" rx="4" fill="#5DCAA5"/>
+<text class="t" x="606" y="173" text-anchor="start">50%</text>
+
+<rect x="40" y="210" width="130" height="50" rx="8" fill="#FAEEDA" stroke="#BA7517" stroke-width="1"/>
+<text class="tb" x="105" y="232" text-anchor="middle" fill="#854F0B">8ビット</text>
+<text class="ts" x="105" y="250" text-anchor="middle" fill="#854F0B">INT8</text>
+<text class="tb" x="330" y="228" text-anchor="middle">0.73</text>
+<line x1="190" y1="247" x2="470" y2="247" stroke="#aaa9a2" stroke-width="0.8"/>
+<g stroke="#BA7517" stroke-width="1.4">
+<line x1="190" y1="241" x2="190" y2="253"/><line x1="246" y1="241" x2="246" y2="253"/><line x1="302" y1="241" x2="302" y2="253"/><line x1="358" y1="241" x2="358" y2="253"/><line x1="414" y1="241" x2="414" y2="253"/><line x1="470" y1="241" x2="470" y2="253"/>
+</g>
+<circle cx="394" cy="247" r="4" fill="#BA7517"/>
+<rect x="490" y="222" width="110" height="26" rx="4" fill="none" stroke="#aaa9a2" stroke-width="0.8"/>
+<rect x="490" y="222" width="28" height="26" rx="4" fill="#EF9F27"/>
+<text class="t" x="606" y="243" text-anchor="start">25%</text>
+
+<rect x="40" y="280" width="130" height="50" rx="8" fill="#FAECE7" stroke="#D85A30" stroke-width="1"/>
+<text class="tb" x="105" y="302" text-anchor="middle" fill="#993C1D">4ビット</text>
+<text class="ts" x="105" y="320" text-anchor="middle" fill="#993C1D">INT4</text>
+<text class="tb" x="330" y="298" text-anchor="middle">0.7</text>
+<line x1="190" y1="317" x2="470" y2="317" stroke="#aaa9a2" stroke-width="0.8"/>
+<g stroke="#D85A30" stroke-width="1.4">
+<line x1="190" y1="311" x2="190" y2="323"/><line x1="283" y1="311" x2="283" y2="323"/><line x1="377" y1="311" x2="377" y2="323"/><line x1="470" y1="311" x2="470" y2="323"/>
+</g>
+<circle cx="394" cy="317" r="4" fill="#D85A30"/>
+<rect x="490" y="292" width="110" height="26" rx="4" fill="none" stroke="#aaa9a2" stroke-width="0.8"/>
+<rect x="490" y="292" width="15" height="26" rx="4" fill="#F0997B"/>
+<text class="t" x="606" y="313" text-anchor="start">13%</text>
+
+<rect x="40" y="350" width="12" height="12" rx="2" fill="#1D9E75"/><text class="ts" x="58" y="360" text-anchor="start">ほぼ無損失</text>
+<rect x="190" y="350" width="12" height="12" rx="2" fill="#BA7517"/><text class="ts" x="208" y="360" text-anchor="start">軽い劣化</text>
+<rect x="330" y="350" width="12" height="12" rx="2" fill="#D85A30"/><text class="ts" x="348" y="360" text-anchor="start">劣化が大きい</text>
+</svg>
