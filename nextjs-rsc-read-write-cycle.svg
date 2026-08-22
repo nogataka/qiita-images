@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="480" viewBox="0 0 1200 480">
+  <defs>
+    <marker id="ar" markerWidth="9" markerHeight="7" refX="8.5" refY="3.5" orient="auto">
+      <path d="M0,0 L9,3.5 L0,7 z" fill="#0F4332"/>
+    </marker>
+    <marker id="arR" markerWidth="9" markerHeight="7" refX="8.5" refY="3.5" orient="auto">
+      <path d="M0,0 L9,3.5 L0,7 z" fill="#8C3A2B"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="480" fill="#F7F5EF"/>
+  <text x="28" y="40" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="20" fill="#0F4332" text-anchor="start" font-weight="600">RSC と Server Actions が組みになる理由</text>
+  <line x1="28" y1="54" x2="1172" y2="54" stroke="#C6CEC6" stroke-width="1"/>
+  <rect x="90" y="110" width="300" height="90" fill="#EFEBE1" stroke="#0F4332" stroke-width="1.5"/>
+  <text x="240.0" y="138" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="17" fill="#16241F" text-anchor="middle" font-weight="600">Database</text>
+  <text x="240.0" y="160" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="13" fill="#5D6B64" text-anchor="middle" font-weight="normal">サーバー状態の正本</text>
+  <rect x="450" y="110" width="300" height="90" fill="#E6EDE6" stroke="#0F4332" stroke-width="1.5"/>
+  <text x="600.0" y="138" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="17" fill="#16241F" text-anchor="middle" font-weight="600">Server Component</text>
+  <text x="600.0" y="160" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="13" fill="#5D6B64" text-anchor="middle" font-weight="normal">状態を読み取りUIを生成</text>
+  <rect x="810" y="110" width="300" height="90" fill="#EFEBE1" stroke="#0F4332" stroke-width="1.5"/>
+  <text x="960.0" y="138" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="17" fill="#16241F" text-anchor="middle" font-weight="600">Browser</text>
+  <text x="960.0" y="160" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="13" fill="#5D6B64" text-anchor="middle" font-weight="normal">RSC Payload を受け取る</text>
+  <line x1="396" y1="155" x2="450" y2="155" stroke="#0F4332" stroke-width="1.5" marker-end="url(#ar)"/>
+  <text x="423" y="138" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="11" fill="#5D6B64" text-anchor="middle" font-weight="normal">読み取り</text>
+  <line x1="756" y1="155" x2="810" y2="155" stroke="#0F4332" stroke-width="1.5" marker-end="url(#ar)"/>
+  <text x="783" y="138" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="11" fill="#5D6B64" text-anchor="middle" font-weight="normal">RSC Payload</text>
+  <rect x="810" y="300" width="300" height="90" fill="#EFEBE1" stroke="#0F4332" stroke-width="1.5"/>
+  <text x="960.0" y="328" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="17" fill="#16241F" text-anchor="middle" font-weight="600">Client Component</text>
+  <text x="960.0" y="350" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="13" fill="#5D6B64" text-anchor="middle" font-weight="normal">ユーザー操作を受ける</text>
+  <rect x="450" y="300" width="300" height="90" fill="#E6EDE6" stroke="#0F4332" stroke-width="1.5"/>
+  <text x="600.0" y="328" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="17" fill="#16241F" text-anchor="middle" font-weight="600">Server Action</text>
+  <text x="600.0" y="350" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="13" fill="#5D6B64" text-anchor="middle" font-weight="normal">更新をサーバーへ反映</text>
+  <rect x="90" y="300" width="300" height="90" fill="#EFEBE1" stroke="#0F4332" stroke-width="1.5"/>
+  <text x="240.0" y="328" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="17" fill="#16241F" text-anchor="middle" font-weight="600">Database</text>
+  <text x="240.0" y="350" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="13" fill="#5D6B64" text-anchor="middle" font-weight="normal">更新後の状態</text>
+  <line x1="960" y1="200" x2="960" y2="300" stroke="#0F4332" stroke-width="1.5" marker-end="url(#ar)"/>
+  <line x1="804" y1="345" x2="756" y2="345" stroke="#0F4332" stroke-width="1.5" marker-end="url(#ar)"/>
+  <text x="780" y="328" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="11" fill="#5D6B64" text-anchor="middle" font-weight="normal">ユーザー操作</text>
+  <line x1="444" y1="345" x2="396" y2="345" stroke="#0F4332" stroke-width="1.5" marker-end="url(#ar)"/>
+  <text x="420" y="328" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="11" fill="#5D6B64" text-anchor="middle" font-weight="normal">更新</text>
+  <polyline points="240,300 240,250 600,250 600,200" fill="none" stroke="#0F4332" stroke-width="1.5" marker-end="url(#ar)"/>
+  <text x="420" y="242" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="13" fill="#0F4332" text-anchor="middle" font-weight="normal">再検証して Server Component を再実行する</text>
+  <text x="28" y="462" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="12" fill="#5D6B64" text-anchor="start" font-weight="normal">上段が読み取り方向、下段が更新方向。更新後は再び上段へ戻り、新しい RSC Payload が画面へ反映される</text>
+</svg>
