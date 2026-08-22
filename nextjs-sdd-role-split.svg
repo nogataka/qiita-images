@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <defs>
+    <marker id="ar" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 z" fill="#2163A7"/>
+    </marker>
+    <marker id="arR" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 z" fill="#B4472F"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="700" fill="#FFFFFF"/>
+  <text x="30" y="46" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="25" fill="#232A34" text-anchor="start" font-weight="normal">Claude Code の4機構＋Hooks／CIをどう分けるか</text>
+  <line x1="30" y1="64" x2="1170" y2="64" stroke="#ECECEC" stroke-width="2" stroke-linecap="round"/>
+  <rect x="250" y="100" width="760" height="76" rx="12" ry="12" fill="#F8FAFC" stroke="#2163A7" stroke-width="2.5"/>
+  <text x="274" y="132" font-family="'SF Mono','Menlo','Courier New',monospace" font-size="17" fill="#232A34" text-anchor="start" font-weight="700">CLAUDE.md</text>
+  <text x="274" y="157" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13.5" fill="#3E4148" text-anchor="start" font-weight="normal">常時必要な短い基本方針</text>
+  <text x="986" y="146" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13" fill="#52555B" text-anchor="end" font-weight="normal">SDDの状態遷移・委任・品質ゲート</text>
+  <rect x="250" y="190" width="760" height="76" rx="12" ry="12" fill="#F8FAFC" stroke="#2163A7" stroke-width="2.5"/>
+  <text x="274" y="222" font-family="'SF Mono','Menlo','Courier New',monospace" font-size="17" fill="#232A34" text-anchor="start" font-weight="700">.claude/rules/</text>
+  <text x="274" y="247" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13.5" fill="#3E4148" text-anchor="start" font-weight="normal">対象ファイルに応じた規約</text>
+  <text x="986" y="236" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13" fill="#52555B" text-anchor="end" font-weight="normal">RSC / Server Actions / Route Handlers</text>
+  <rect x="250" y="280" width="760" height="76" rx="12" ry="12" fill="#F8FAFC" stroke="#2163A7" stroke-width="2.5"/>
+  <text x="274" y="312" font-family="'SF Mono','Menlo','Courier New',monospace" font-size="17" fill="#232A34" text-anchor="start" font-weight="700">.claude/skills/</text>
+  <text x="274" y="337" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13.5" fill="#3E4148" text-anchor="start" font-weight="normal">再利用する手順</text>
+  <text x="986" y="326" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13" fill="#52555B" text-anchor="end" font-weight="normal">/sdd-spec  /sdd-plan  /sdd-implement</text>
+  <rect x="250" y="370" width="760" height="76" rx="12" ry="12" fill="#F8FAFC" stroke="#2163A7" stroke-width="2.5"/>
+  <text x="274" y="402" font-family="'SF Mono','Menlo','Courier New',monospace" font-size="17" fill="#232A34" text-anchor="start" font-weight="700">.claude/agents/</text>
+  <text x="274" y="427" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13.5" fill="#3E4148" text-anchor="start" font-weight="normal">分離された専門コンテキスト</text>
+  <text x="986" y="416" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13" fill="#52555B" text-anchor="end" font-weight="normal">仕様作成者・設計者・実装者・検証者</text>
+  <rect x="250" y="460" width="760" height="76" rx="12" ry="12" fill="#F8FCFF" stroke="#90B9DA" stroke-width="2.5"/>
+  <text x="274" y="492" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="17" fill="#232A34" text-anchor="start" font-weight="normal">Hooks</text>
+  <text x="274" y="517" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13.5" fill="#3E4148" text-anchor="start" font-weight="normal">ローカルで即時実行する自動検査</text>
+  <text x="986" y="506" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13" fill="#52555B" text-anchor="end" font-weight="normal">編集後の整形 / 危険コマンドの遮断</text>
+  <rect x="250" y="550" width="760" height="76" rx="12" ry="12" fill="#F8FCFF" stroke="#90B9DA" stroke-width="2.5"/>
+  <text x="274" y="582" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="17" fill="#232A34" text-anchor="start" font-weight="normal">CI</text>
+  <text x="274" y="607" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13.5" fill="#3E4148" text-anchor="start" font-weight="normal">マージ条件として必ず通す強制検査</text>
+  <text x="986" y="596" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13" fill="#52555B" text-anchor="end" font-weight="normal">lint / 型検査 / テスト / ビルド</text>
+  <line x1="200" y1="106" x2="200" y2="620" stroke="#CDD6DE" stroke-width="2" stroke-linecap="round"/>
+  <text x="182" y="132" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13" fill="#52555B" text-anchor="end" font-weight="normal">常時のコンテキスト消費</text>
+  <text x="182" y="154" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="13.5" fill="#2163A7" text-anchor="end" font-weight="normal">大きい</text>
+  <text x="182" y="592" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13" fill="#52555B" text-anchor="end" font-weight="normal">強制力</text>
+  <text x="182" y="614" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="13.5" fill="#2163A7" text-anchor="end" font-weight="normal">強い</text>
+  <text x="30" y="680" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13" fill="#52555B" text-anchor="start" font-weight="normal">CLAUDE.md は指針であり強制機構ではない。Hooks は無効化できる。絶対に守らせたい検査は CI へ置く。</text>
+</svg>
