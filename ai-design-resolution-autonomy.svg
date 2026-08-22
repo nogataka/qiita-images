@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="660" viewBox="0 0 1200 660">
+  <defs>
+    <marker id="ar" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 z" fill="#2163A7"/>
+    </marker>
+    <marker id="arR" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 z" fill="#B4472F"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="660" fill="#FFFFFF"/>
+  <text x="30" y="46" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="25" fill="#232A34" text-anchor="start" font-weight="normal">完成形の解像度 × AI の自律度で、設計の深さを変える</text>
+  <line x1="30" y1="64" x2="1170" y2="64" stroke="#ECECEC" stroke-width="2" stroke-linecap="round"/>
+  <rect x="260" y="120" width="388" height="188" rx="12" ry="12" fill="#F8FAFC" stroke="#2163A7" stroke-width="2.5"/>
+  <text x="454.0" y="178" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="18" fill="#232A34" text-anchor="middle" font-weight="normal">軽量 SDD・PoC</text>
+  <text x="454.0" y="212" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13.5" fill="#3E4148" text-anchor="middle" font-weight="normal">人間が途中で補正できる</text>
+  <text x="454.0" y="236" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13.5" fill="#3E4148" text-anchor="middle" font-weight="normal">捨てる前提で素早く学ぶ</text>
+  <rect x="660" y="120" width="388" height="188" rx="12" ry="12" fill="#F8FAFC" stroke="#2163A7" stroke-width="2.5"/>
+  <text x="854.0" y="178" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="18" fill="#232A34" text-anchor="middle" font-weight="normal">捨てる試作に限定する</text>
+  <text x="854.0" y="212" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13.5" fill="#3E4148" text-anchor="middle" font-weight="normal">評価基準の漏れが増幅される</text>
+  <text x="854.0" y="236" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13.5" fill="#3E4148" text-anchor="middle" font-weight="normal">本番基盤へ育てない</text>
+  <rect x="260" y="320" width="388" height="188" rx="12" ry="12" fill="#F8FAFC" stroke="#2163A7" stroke-width="2.5"/>
+  <text x="454.0" y="378" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="18" fill="#232A34" text-anchor="middle" font-weight="normal">詳細設計を先行</text>
+  <text x="454.0" y="412" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13.5" fill="#3E4148" text-anchor="middle" font-weight="normal">レビューで吸収できる</text>
+  <text x="454.0" y="436" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13.5" fill="#3E4148" text-anchor="middle" font-weight="normal">基準線は軽くてよい</text>
+  <rect x="660" y="320" width="388" height="188" rx="12" ry="12" fill="#F8FCFF" stroke="#B4472F" stroke-width="2.5"/>
+  <text x="854.0" y="378" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="18" fill="#232A34" text-anchor="middle" font-weight="normal">基準線型 SDD</text>
+  <text x="854.0" y="412" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13.5" fill="#3E4148" text-anchor="middle" font-weight="normal">最初の詳細設計の価値が最大</text>
+  <text x="854.0" y="436" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13.5" fill="#3E4148" text-anchor="middle" font-weight="normal">Change Request を必須化</text>
+  <text x="454.0" y="102" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="14.5" fill="#2163A7" text-anchor="middle" font-weight="normal">AI の自律度：低い</text>
+  <text x="854.0" y="102" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="14.5" fill="#2163A7" text-anchor="middle" font-weight="normal">AI の自律度：高い</text>
+  <text x="236" y="202.0" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="14.5" fill="#2163A7" text-anchor="end" font-weight="normal">完成形の解像度：低い</text>
+  <text x="236" y="226.0" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13" fill="#52555B" text-anchor="end" font-weight="normal">学習速度を優先</text>
+  <text x="236" y="402.0" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="14.5" fill="#2163A7" text-anchor="end" font-weight="normal">完成形の解像度：高い</text>
+  <text x="236" y="426.0" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13" fill="#52555B" text-anchor="end" font-weight="normal">設計一致を優先</text>
+  <text x="854.0" y="546" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13.5" fill="#B4472F" text-anchor="middle" font-weight="normal">この象限で、最初に詳細設計する価値が最も高い</text>
+  <text x="30" y="640" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13" fill="#52555B" text-anchor="start" font-weight="normal">アジャイルかウォーターフォールかではなく、解像度と自律度で設計の深さを決める。</text>
+</svg>
