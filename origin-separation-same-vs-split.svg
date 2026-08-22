@@ -1,52 +1,52 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="640" viewBox="0 0 1200 640">
   <defs>
-    <marker id="ar" markerWidth="9" markerHeight="7" refX="8.5" refY="3.5" orient="auto">
-      <path d="M0,0 L9,3.5 L0,7 z" fill="#0F4332"/>
+    <marker id="ar" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 z" fill="#2163A7"/>
     </marker>
-    <marker id="arR" markerWidth="9" markerHeight="7" refX="8.5" refY="3.5" orient="auto">
-      <path d="M0,0 L9,3.5 L0,7 z" fill="#8C3A2B"/>
+    <marker id="arR" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 z" fill="#B4472F"/>
     </marker>
   </defs>
-  <rect width="1200" height="640" fill="#F7F5EF"/>
-  <text x="28" y="40" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="20" fill="#0F4332" text-anchor="start" font-weight="600">同一オリジン構成とオリジン分離構成の違い</text>
-  <line x1="28" y1="54" x2="1172" y2="54" stroke="#C6CEC6" stroke-width="1"/>
-  <rect x="60" y="82" width="520" height="480" fill="none" stroke="#C6CEC6" stroke-width="1"/>
-  <text x="320" y="114" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="17" fill="#0F4332" text-anchor="middle" font-weight="600">同一オリジン構成</text>
-  <rect x="100" y="136" width="400" height="300" fill="#F0E2DE" stroke="#8C3A2B" stroke-width="1.5" stroke-dasharray="6 4"/>
+  <rect width="1200" height="640" fill="#FFFFFF"/>
+  <text x="30" y="46" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="25" fill="#232A34" text-anchor="start" font-weight="normal">同一オリジン構成とオリジン分離構成の違い</text>
+  <line x1="30" y1="64" x2="1170" y2="64" stroke="#ECECEC" stroke-width="2" stroke-linecap="round"/>
+  <rect x="60" y="82" width="520" height="480" rx="12" ry="12" fill="none" stroke="#CDD6DE" stroke-width="2"/>
+  <text x="320" y="114" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="17" fill="#232A34" text-anchor="middle" font-weight="normal">同一オリジン構成</text>
+  <rect x="100" y="136" width="400" height="300" rx="12" ry="12" fill="#F0E2DE" stroke="#8C3A2B" stroke-width="2.5" stroke-dasharray="6 4"/>
   <text x="300" y="162" font-family="'SF Mono','Menlo','Courier New',monospace" font-size="14" fill="#8C3A2B" text-anchor="middle" font-weight="normal">https://app.example.com</text>
-  <text x="300" y="182" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="12" fill="#5D6B64" text-anchor="middle" font-weight="normal">ブラウザから見た境界は1つ</text>
-  <rect x="126" y="200" width="316" height="56" fill="#F7F5EF" stroke="#C6CEC6" stroke-width="1"/>
-  <text x="146" y="226" font-family="'SF Mono','Menlo','Courier New',monospace" font-size="14" fill="#16241F" text-anchor="start" font-weight="normal">/shops/shop-a</text>
-  <text x="146" y="245" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="12" fill="#5D6B64" text-anchor="start" font-weight="normal">公開ページ（XSS の侵入口）</text>
-  <rect x="126" y="274" width="316" height="56" fill="#F7F5EF" stroke="#C6CEC6" stroke-width="1"/>
-  <text x="146" y="300" font-family="'SF Mono','Menlo','Courier New',monospace" font-size="14" fill="#16241F" text-anchor="start" font-weight="normal">/admin</text>
-  <text x="146" y="319" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="12" fill="#5D6B64" text-anchor="start" font-weight="normal">管理画面</text>
-  <rect x="126" y="348" width="316" height="56" fill="#F7F5EF" stroke="#C6CEC6" stroke-width="1"/>
-  <text x="146" y="374" font-family="'SF Mono','Menlo','Courier New',monospace" font-size="14" fill="#16241F" text-anchor="start" font-weight="normal">/api/admin/users</text>
-  <text x="146" y="393" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="12" fill="#5D6B64" text-anchor="start" font-weight="normal">管理 API</text>
-  <polyline points="442,228 472,228 472,376 448,376" fill="none" stroke="#8C3A2B" stroke-width="1.8" marker-end="url(#arR)"/>
-  <text x="512" y="292" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="11" fill="#8C3A2B" text-anchor="start" font-weight="normal">同一オリジン内</text>
-  <text x="512" y="308" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="11" fill="#8C3A2B" text-anchor="start" font-weight="normal">なので届く</text>
-  <text x="320" y="470" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="14" fill="#8C3A2B" text-anchor="middle" font-weight="600">公開ページの XSS から管理 API を fetch できる</text>
-  <text x="320" y="498" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="12" fill="#5D6B64" text-anchor="middle" font-weight="normal">HttpOnly でも、管理者としての操作は実行される</text>
-  <rect x="620" y="82" width="520" height="480" fill="none" stroke="#C6CEC6" stroke-width="1"/>
-  <text x="880" y="114" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="17" fill="#0F4332" text-anchor="middle" font-weight="600">オリジン分離構成</text>
-  <rect x="660" y="148" width="430" height="78" fill="#E6EDE6" stroke="#0F4332" stroke-width="1.5"/>
-  <text x="680" y="176" font-family="'SF Mono','Menlo','Courier New',monospace" font-size="14" fill="#16241F" text-anchor="start" font-weight="normal">https://shop-a.example.com</text>
-  <text x="680" y="196" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="12" fill="#5D6B64" text-anchor="start" font-weight="normal">公開ページ</text>
-  <line x1="660" y1="237" x2="1090" y2="237" stroke="#8C3A2B" stroke-width="2" stroke-dasharray="7 5"/>
-  <text x="1104" y="242" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="17" fill="#8C3A2B" text-anchor="start" font-weight="600">×</text>
-  <rect x="660" y="248" width="430" height="78" fill="#E6EDE6" stroke="#0F4332" stroke-width="1.5"/>
-  <text x="680" y="276" font-family="'SF Mono','Menlo','Courier New',monospace" font-size="14" fill="#16241F" text-anchor="start" font-weight="normal">https://admin.example.com</text>
-  <text x="680" y="296" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="12" fill="#5D6B64" text-anchor="start" font-weight="normal">管理画面</text>
-  <text x="680" y="316" font-family="'SF Mono','Menlo','Courier New',monospace" font-size="11" fill="#0F4332" text-anchor="start" font-weight="normal">Cookie: __Host-admin_session</text>
-  <line x1="660" y1="337" x2="1090" y2="337" stroke="#8C3A2B" stroke-width="2" stroke-dasharray="7 5"/>
-  <text x="1104" y="342" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="17" fill="#8C3A2B" text-anchor="start" font-weight="600">×</text>
-  <rect x="660" y="348" width="430" height="78" fill="#E6EDE6" stroke="#0F4332" stroke-width="1.5"/>
-  <text x="680" y="376" font-family="'SF Mono','Menlo','Courier New',monospace" font-size="14" fill="#16241F" text-anchor="start" font-weight="normal">https://api.example.com</text>
-  <text x="680" y="396" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="12" fill="#5D6B64" text-anchor="start" font-weight="normal">API</text>
-  <text x="880" y="470" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="14" fill="#0F4332" text-anchor="middle" font-weight="600">DOM・ストレージ・レスポンスを跨げない</text>
-  <text x="880" y="498" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="12" fill="#5D6B64" text-anchor="middle" font-weight="normal">被害は発生したオリジン内に留まる</text>
-  <text x="880" y="520" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="12" fill="#5D6B64" text-anchor="middle" font-weight="normal">ただしサーバー側の認可は別途必要</text>
-  <text x="28" y="622" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="12" fill="#5D6B64" text-anchor="start" font-weight="normal">左の赤い矢印が越えてしまう経路、右の赤い破線が分離で立てた境界。分離は XSS を防ぐ施策ではなく、起きたときの延焼を止める区画化</text>
+  <text x="300" y="182" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="12" fill="#52555B" text-anchor="middle" font-weight="normal">ブラウザから見た境界は1つ</text>
+  <rect x="126" y="200" width="316" height="56" rx="12" ry="12" fill="#FFFFFF" stroke="#CDD6DE" stroke-width="2"/>
+  <text x="146" y="226" font-family="'SF Mono','Menlo','Courier New',monospace" font-size="14" fill="#3E4148" text-anchor="start" font-weight="normal">/shops/shop-a</text>
+  <text x="146" y="245" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="12" fill="#52555B" text-anchor="start" font-weight="normal">公開ページ（XSS の侵入口）</text>
+  <rect x="126" y="274" width="316" height="56" rx="12" ry="12" fill="#FFFFFF" stroke="#CDD6DE" stroke-width="2"/>
+  <text x="146" y="300" font-family="'SF Mono','Menlo','Courier New',monospace" font-size="14" fill="#3E4148" text-anchor="start" font-weight="normal">/admin</text>
+  <text x="146" y="319" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="12" fill="#52555B" text-anchor="start" font-weight="normal">管理画面</text>
+  <rect x="126" y="348" width="316" height="56" rx="12" ry="12" fill="#FFFFFF" stroke="#CDD6DE" stroke-width="2"/>
+  <text x="146" y="374" font-family="'SF Mono','Menlo','Courier New',monospace" font-size="14" fill="#3E4148" text-anchor="start" font-weight="normal">/api/admin/users</text>
+  <text x="146" y="393" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="12" fill="#52555B" text-anchor="start" font-weight="normal">管理 API</text>
+  <polyline points="442,228 472,228 472,376 448,376" fill="none" stroke="#B4472F" stroke-width="3" stroke-linejoin="round" marker-end="url(#arR)"/>
+  <text x="512" y="292" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="11" fill="#8C3A2B" text-anchor="start" font-weight="normal">同一オリジン内</text>
+  <text x="512" y="308" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="11" fill="#8C3A2B" text-anchor="start" font-weight="normal">なので届く</text>
+  <text x="320" y="470" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="14" fill="#8C3A2B" text-anchor="middle" font-weight="normal">公開ページの XSS から管理 API を fetch できる</text>
+  <text x="320" y="498" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="12" fill="#52555B" text-anchor="middle" font-weight="normal">HttpOnly でも、管理者としての操作は実行される</text>
+  <rect x="620" y="82" width="520" height="480" rx="12" ry="12" fill="none" stroke="#CDD6DE" stroke-width="2"/>
+  <text x="880" y="114" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="17" fill="#232A34" text-anchor="middle" font-weight="normal">オリジン分離構成</text>
+  <rect x="660" y="148" width="430" height="78" rx="12" ry="12" fill="#F8FAFC" stroke="#2163A7" stroke-width="1.5"/>
+  <text x="680" y="176" font-family="'SF Mono','Menlo','Courier New',monospace" font-size="14" fill="#3E4148" text-anchor="start" font-weight="normal">https://shop-a.example.com</text>
+  <text x="680" y="196" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="12" fill="#52555B" text-anchor="start" font-weight="normal">公開ページ</text>
+  <line x1="660" y1="237" x2="1090" y2="237" stroke="#8C3A2B" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="8 6"/>
+  <text x="1104" y="242" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="17" fill="#8C3A2B" text-anchor="start" font-weight="normal">×</text>
+  <rect x="660" y="248" width="430" height="78" rx="12" ry="12" fill="#F8FAFC" stroke="#2163A7" stroke-width="1.5"/>
+  <text x="680" y="276" font-family="'SF Mono','Menlo','Courier New',monospace" font-size="14" fill="#3E4148" text-anchor="start" font-weight="normal">https://admin.example.com</text>
+  <text x="680" y="296" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="12" fill="#52555B" text-anchor="start" font-weight="normal">管理画面</text>
+  <text x="680" y="316" font-family="'SF Mono','Menlo','Courier New',monospace" font-size="11" fill="#2163A7" text-anchor="start" font-weight="normal">Cookie: __Host-admin_session</text>
+  <line x1="660" y1="337" x2="1090" y2="337" stroke="#8C3A2B" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="8 6"/>
+  <text x="1104" y="342" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="17" fill="#8C3A2B" text-anchor="start" font-weight="normal">×</text>
+  <rect x="660" y="348" width="430" height="78" rx="12" ry="12" fill="#F8FAFC" stroke="#2163A7" stroke-width="1.5"/>
+  <text x="680" y="376" font-family="'SF Mono','Menlo','Courier New',monospace" font-size="14" fill="#3E4148" text-anchor="start" font-weight="normal">https://api.example.com</text>
+  <text x="680" y="396" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="12" fill="#52555B" text-anchor="start" font-weight="normal">API</text>
+  <text x="880" y="470" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="14" fill="#2163A7" text-anchor="middle" font-weight="normal">DOM・ストレージ・レスポンスを跨げない</text>
+  <text x="880" y="498" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="12" fill="#52555B" text-anchor="middle" font-weight="normal">被害は発生したオリジン内に留まる</text>
+  <text x="880" y="520" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="12" fill="#52555B" text-anchor="middle" font-weight="normal">ただしサーバー側の認可は別途必要</text>
+  <text x="30" y="620" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13" fill="#52555B" text-anchor="start" font-weight="normal">左の赤い矢印が越えてしまう経路、右の赤い破線が分離で立てた境界。分離は XSS を防ぐ施策ではなく、起きたときの延焼を止める区画化</text>
 </svg>
