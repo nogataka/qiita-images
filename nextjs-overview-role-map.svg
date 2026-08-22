@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="608" viewBox="0 0 1200 608">
+  <defs>
+    <marker id="ar" markerWidth="9" markerHeight="7" refX="8.5" refY="3.5" orient="auto">
+      <path d="M0,0 L9,3.5 L0,7 z" fill="#0F4332"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="608" fill="#F7F5EF"/>
+  <text x="28" y="40" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="20" fill="#0F4332" text-anchor="start" font-weight="600">何を、どの仕組みが担当するか</text>
+  <line x1="28" y1="54" x2="1172" y2="54" stroke="#C6CEC6" stroke-width="1"/>
+  <rect x="60" y="90" width="400" height="40" fill="#EFEBE1" stroke="#C6CEC6" stroke-width="1"/>
+  <text x="80" y="116" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="15" fill="#16241F" text-anchor="start" font-weight="normal">画面構造</text>
+  <line x1="480" y1="110" x2="600" y2="110" stroke="#0F4332" stroke-width="1.5" marker-end="url(#ar)"/>
+  <rect x="620" y="90" width="520" height="40" fill="#E6EDE6" stroke="#0F4332" stroke-width="1.5"/>
+  <text x="640" y="116" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="15" fill="#16241F" text-anchor="start" font-weight="600">React Component</text>
+  <rect x="60" y="142" width="400" height="40" fill="#EFEBE1" stroke="#C6CEC6" stroke-width="1"/>
+  <text x="80" y="168" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="15" fill="#16241F" text-anchor="start" font-weight="normal">URL</text>
+  <line x1="480" y1="162" x2="600" y2="162" stroke="#0F4332" stroke-width="1.5" marker-end="url(#ar)"/>
+  <rect x="620" y="142" width="520" height="40" fill="#E6EDE6" stroke="#0F4332" stroke-width="1.5"/>
+  <text x="640" y="168" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="15" fill="#16241F" text-anchor="start" font-weight="600">App Router</text>
+  <rect x="60" y="194" width="400" height="40" fill="#EFEBE1" stroke="#C6CEC6" stroke-width="1"/>
+  <text x="80" y="220" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="15" fill="#16241F" text-anchor="start" font-weight="normal">表示データの取得</text>
+  <line x1="480" y1="214" x2="600" y2="214" stroke="#0F4332" stroke-width="1.5" marker-end="url(#ar)"/>
+  <rect x="620" y="194" width="520" height="40" fill="#E6EDE6" stroke="#0F4332" stroke-width="1.5"/>
+  <text x="640" y="220" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="15" fill="#16241F" text-anchor="start" font-weight="600">Server Component</text>
+  <rect x="60" y="246" width="400" height="40" fill="#EFEBE1" stroke="#C6CEC6" stroke-width="1"/>
+  <text x="80" y="272" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="15" fill="#16241F" text-anchor="start" font-weight="normal">ブラウザ状態・イベント</text>
+  <line x1="480" y1="266" x2="600" y2="266" stroke="#0F4332" stroke-width="1.5" marker-end="url(#ar)"/>
+  <rect x="620" y="246" width="520" height="40" fill="#E6EDE6" stroke="#0F4332" stroke-width="1.5"/>
+  <text x="640" y="272" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="15" fill="#16241F" text-anchor="start" font-weight="600">Client Component</text>
+  <rect x="60" y="298" width="400" height="40" fill="#EFEBE1" stroke="#C6CEC6" stroke-width="1"/>
+  <text x="80" y="324" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="15" fill="#16241F" text-anchor="start" font-weight="normal">画面専用のデータ更新</text>
+  <line x1="480" y1="318" x2="600" y2="318" stroke="#0F4332" stroke-width="1.5" marker-end="url(#ar)"/>
+  <rect x="620" y="298" width="520" height="40" fill="#E6EDE6" stroke="#0F4332" stroke-width="1.5"/>
+  <text x="640" y="324" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="15" fill="#16241F" text-anchor="start" font-weight="600">Server Action</text>
+  <rect x="60" y="350" width="400" height="40" fill="#EFEBE1" stroke="#C6CEC6" stroke-width="1"/>
+  <text x="80" y="376" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="15" fill="#16241F" text-anchor="start" font-weight="normal">HTTPインターフェース</text>
+  <line x1="480" y1="370" x2="600" y2="370" stroke="#0F4332" stroke-width="1.5" marker-end="url(#ar)"/>
+  <rect x="620" y="350" width="520" height="40" fill="#E6EDE6" stroke="#0F4332" stroke-width="1.5"/>
+  <text x="640" y="376" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="15" fill="#16241F" text-anchor="start" font-weight="600">Route Handler</text>
+  <rect x="60" y="402" width="400" height="40" fill="#EFEBE1" stroke="#C6CEC6" stroke-width="1"/>
+  <text x="80" y="428" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="15" fill="#16241F" text-anchor="start" font-weight="normal">業務ロジック</text>
+  <line x1="480" y1="422" x2="600" y2="422" stroke="#0F4332" stroke-width="1.5" marker-end="url(#ar)"/>
+  <rect x="620" y="402" width="520" height="40" fill="#E6EDE6" stroke="#0F4332" stroke-width="1.5"/>
+  <text x="640" y="428" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="15" fill="#16241F" text-anchor="start" font-weight="600">Service / Use Case</text>
+  <rect x="60" y="454" width="400" height="40" fill="#EFEBE1" stroke="#C6CEC6" stroke-width="1"/>
+  <text x="80" y="480" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="15" fill="#16241F" text-anchor="start" font-weight="normal">DBアクセス</text>
+  <line x1="480" y1="474" x2="600" y2="474" stroke="#0F4332" stroke-width="1.5" marker-end="url(#ar)"/>
+  <rect x="620" y="454" width="520" height="40" fill="#E6EDE6" stroke="#0F4332" stroke-width="1.5"/>
+  <text x="640" y="480" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="15" fill="#16241F" text-anchor="start" font-weight="600">Repository / DB Client</text>
+  <rect x="60" y="506" width="400" height="40" fill="#EFEBE1" stroke="#C6CEC6" stroke-width="1"/>
+  <text x="80" y="532" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="15" fill="#16241F" text-anchor="start" font-weight="normal">最新化</text>
+  <line x1="480" y1="526" x2="600" y2="526" stroke="#0F4332" stroke-width="1.5" marker-end="url(#ar)"/>
+  <rect x="620" y="506" width="520" height="40" fill="#E6EDE6" stroke="#0F4332" stroke-width="1.5"/>
+  <text x="640" y="532" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="15" fill="#16241F" text-anchor="start" font-weight="600">Cache / Revalidation</text>
+  <text x="28" y="590" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="12" fill="#5D6B64" text-anchor="start" font-weight="normal">左が解決したい関心事、右がNext.jsで対応する仕組み</text>
+</svg>
