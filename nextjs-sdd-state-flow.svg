@@ -8,7 +8,7 @@
     </marker>
   </defs>
   <rect width="1200" height="870" fill="#FFFFFF"/>
-  <text x="30" y="46" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="25" fill="#232A34" text-anchor="start" font-weight="normal">SDD の状態遷移と差し戻し</text>
+  <text x="30" y="46" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="25" fill="#232A34" text-anchor="start" font-weight="normal">機能層の状態遷移と差し戻し</text>
   <line x1="30" y1="64" x2="1170" y2="64" stroke="#ECECEC" stroke-width="2" stroke-linecap="round"/>
   <rect x="150" y="100" width="300" height="56" rx="12" ry="12" fill="#F8FAFC" stroke="#2163A7" stroke-width="2.5"/>
   <text x="300.0" y="135" font-family="'SF Mono','Menlo','Courier New',monospace" font-size="17" fill="#232A34" text-anchor="middle" font-weight="700">REQUESTED</text>
@@ -33,13 +33,16 @@
   <line x1="300.0" y1="716" x2="300.0" y2="739" stroke="#2163A7" stroke-width="2.2" marker-end="url(#ar)"/>
   <rect x="150" y="744" width="300" height="56" rx="12" ry="12" fill="#F8FCFF" stroke="#90B9DA" stroke-width="2.5"/>
   <text x="300.0" y="779" font-family="'SF Mono','Menlo','Courier New',monospace" font-size="17" fill="#232A34" text-anchor="middle" font-weight="700">DONE</text>
-  <polyline points="454,588.0 520,588.0 520,496.0 460,496.0" fill="none" stroke="#B4472F" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#arR)"/>
-  <text x="820" y="488.0" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13.5" fill="#B4472F" text-anchor="start" font-weight="normal">検証 NG → 該当タスクだけ実装へ戻す</text>
-  <polyline points="454,680.0 580,680.0 580,496.0 460,496.0" fill="none" stroke="#B4472F" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#arR)"/>
-  <text x="820" y="512.0" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13.5" fill="#B4472F" text-anchor="start" font-weight="normal">実装不具合 → 実装へ戻す</text>
-  <polyline points="454,680.0 640,680.0 640,404.0 460,404.0" fill="none" stroke="#B4472F" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#arR)"/>
-  <text x="820" y="409.0" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13.5" fill="#B4472F" text-anchor="start" font-weight="normal">計画不具合 → 計画へ戻す</text>
-  <polyline points="454,680.0 700,680.0 700,312.0 460,312.0" fill="none" stroke="#B4472F" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#arR)"/>
-  <text x="820" y="317.0" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13.5" fill="#B4472F" text-anchor="start" font-weight="normal">仕様不具合 → 仕様へ戻す</text>
-  <text x="30" y="850" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13" fill="#52555B" text-anchor="start" font-weight="normal">差し戻し先は不具合の種類で決める。仕様不具合を実装者へ投げない。</text>
+  <line x1="454" y1="588.0" x2="520" y2="588.0" stroke="#B4472F" stroke-width="2.2" stroke-linecap="round"/>
+  <line x1="454" y1="680.0" x2="520" y2="680.0" stroke="#B4472F" stroke-width="2.2" stroke-linecap="round"/>
+  <line x1="520" y1="588.0" x2="520" y2="680.0" stroke="#B4472F" stroke-width="2.2" stroke-linecap="round"/>
+  <polyline points="520,634.0 590,634.0 590,496.0 460,496.0" fill="none" stroke="#B4472F" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#arR)"/>
+  <text x="800" y="501.0" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13.5" fill="#B4472F" text-anchor="start" font-weight="normal">実装・テスト不具合 → ここへ戻す</text>
+  <polyline points="520,634.0 650,634.0 650,404.0 460,404.0" fill="none" stroke="#B4472F" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#arR)"/>
+  <text x="800" y="409.0" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13.5" fill="#B4472F" text-anchor="start" font-weight="normal">計画不具合 → ここへ戻す</text>
+  <polyline points="520,634.0 710,634.0 710,312.0 460,312.0" fill="none" stroke="#B4472F" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#arR)"/>
+  <text x="800" y="317.0" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13.5" fill="#B4472F" text-anchor="start" font-weight="normal">仕様不具合 → ここへ戻す</text>
+  <text x="800" y="639.0" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13.5" fill="#B4472F" text-anchor="start" font-weight="normal">VERIFYING / REVIEWING の両方から</text>
+  <text x="800" y="659.0" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13.5" fill="#B4472F" text-anchor="start" font-weight="normal">不具合の種類で戻す先を選ぶ</text>
+  <text x="30" y="850" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13" fill="#52555B" text-anchor="start" font-weight="normal">環境起因は BLOCKED で停止し、基準線の不備は Change Request として人へ上げる。</text>
 </svg>
