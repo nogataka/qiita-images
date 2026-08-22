@@ -1,39 +1,39 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500">
   <defs>
-    <marker id="ar" markerWidth="9" markerHeight="7" refX="8.5" refY="3.5" orient="auto">
-      <path d="M0,0 L9,3.5 L0,7 z" fill="#0F4332"/>
+    <marker id="ar" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 z" fill="#2163A7"/>
     </marker>
-    <marker id="arR" markerWidth="9" markerHeight="7" refX="8.5" refY="3.5" orient="auto">
-      <path d="M0,0 L9,3.5 L0,7 z" fill="#8C3A2B"/>
+    <marker id="arR" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 z" fill="#B4472F"/>
     </marker>
   </defs>
-  <rect width="1200" height="500" fill="#F7F5EF"/>
-  <text x="28" y="40" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="20" fill="#0F4332" text-anchor="start" font-weight="600">AI に任せるときの3段階</text>
-  <line x1="28" y1="54" x2="1172" y2="54" stroke="#C6CEC6" stroke-width="1"/>
-  <rect x="60" y="94" width="330" height="190" fill="#EFEBE1" stroke="#C6CEC6" stroke-width="1"/>
-  <text x="225" y="132" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="18" fill="#0F4332" text-anchor="middle" font-weight="600">1. 理解する</text>
-  <line x1="100" y1="148" x2="350" y2="148" stroke="#C6CEC6" stroke-width="1"/>
-  <text x="225" y="180" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="13" fill="#5D6B64" text-anchor="middle" font-weight="normal">作る機能の目的・制約・データ・</text>
-  <text x="225" y="199" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="13" fill="#5D6B64" text-anchor="middle" font-weight="normal">処理の流れを掴む</text>
-  <text x="225" y="232" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="13" fill="#5D6B64" text-anchor="middle" font-weight="normal">AI へ何を任せようとしているのか</text>
-  <text x="225" y="251" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="13" fill="#5D6B64" text-anchor="middle" font-weight="normal">説明できる状態にする</text>
-  <line x1="390" y1="189" x2="435" y2="189" stroke="#0F4332" stroke-width="1.5" marker-end="url(#ar)"/>
-  <rect x="435" y="94" width="330" height="190" fill="#EFEBE1" stroke="#C6CEC6" stroke-width="1"/>
-  <text x="600" y="132" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="18" fill="#0F4332" text-anchor="middle" font-weight="600">2. 委譲する</text>
-  <line x1="475" y1="148" x2="725" y2="148" stroke="#C6CEC6" stroke-width="1"/>
-  <text x="600" y="180" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="13" fill="#5D6B64" text-anchor="middle" font-weight="normal">定型実装・テスト作成・</text>
-  <text x="600" y="199" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="13" fill="#5D6B64" text-anchor="middle" font-weight="normal">ドキュメント作成を任せる</text>
-  <text x="600" y="232" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="13" fill="#5D6B64" text-anchor="middle" font-weight="normal">前提条件と制約を明示して渡す</text>
-  <line x1="765" y1="189" x2="810" y2="189" stroke="#0F4332" stroke-width="1.5" marker-end="url(#ar)"/>
-  <rect x="810" y="94" width="330" height="190" fill="#E6EDE6" stroke="#0F4332" stroke-width="1.5"/>
-  <text x="975" y="132" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="18" fill="#0F4332" text-anchor="middle" font-weight="600">3. 検証する</text>
-  <line x1="850" y1="148" x2="1100" y2="148" stroke="#C6CEC6" stroke-width="1"/>
-  <text x="975" y="180" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="13" fill="#5D6B64" text-anchor="middle" font-weight="normal">要件・設計・セキュリティ・</text>
-  <text x="975" y="199" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="13" fill="#5D6B64" text-anchor="middle" font-weight="normal">品質基準を満たすか確認する</text>
-  <text x="975" y="232" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="13" fill="#5D6B64" text-anchor="middle" font-weight="normal">動作だけでなく異常系・運用・</text>
-  <text x="975" y="251" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="13" fill="#5D6B64" text-anchor="middle" font-weight="normal">将来の変更まで見る</text>
-  <polyline points="1000,284 1000,336 225,336 225,284" fill="none" stroke="#0F4332" stroke-width="1.5" marker-end="url(#ar)"/>
-  <text x="612" y="362" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="14" fill="#0F4332" text-anchor="middle" font-weight="normal">検証で見つかった不足は、理解の段階へ戻して回し直す</text>
-  <text x="612" y="406" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="13" fill="#5D6B64" text-anchor="middle" font-weight="normal">人間が意思決定を行い、AI が実行を加速する。責任の対象はコード記述から設計判断と成果物の評価へ移る</text>
-  <text x="28" y="482" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="12" fill="#5D6B64" text-anchor="start" font-weight="normal">AI へ任せる範囲が広がるほど、3 の検証で確認すべき整合性の範囲も広がる</text>
+  <rect width="1200" height="500" fill="#FFFFFF"/>
+  <text x="30" y="46" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="25" fill="#232A34" text-anchor="start" font-weight="normal">AI に任せるときの3段階</text>
+  <line x1="30" y1="64" x2="1170" y2="64" stroke="#ECECEC" stroke-width="2" stroke-linecap="round"/>
+  <rect x="60" y="94" width="330" height="190" rx="12" ry="12" fill="#F8FCFF" stroke="#90B9DA" stroke-width="2"/>
+  <text x="225" y="132" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="18" fill="#232A34" text-anchor="middle" font-weight="normal">1. 理解する</text>
+  <line x1="100" y1="148" x2="350" y2="148" stroke="#CDD6DE" stroke-width="2" stroke-linecap="round"/>
+  <text x="225" y="180" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13" fill="#3E4148" text-anchor="middle" font-weight="normal">作る機能の目的・制約・データ・</text>
+  <text x="225" y="200" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13" fill="#3E4148" text-anchor="middle" font-weight="normal">処理の流れを掴む</text>
+  <text x="225" y="232" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13" fill="#3E4148" text-anchor="middle" font-weight="normal">AI へ何を任せようとしているのか</text>
+  <text x="225" y="252" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13" fill="#3E4148" text-anchor="middle" font-weight="normal">説明できる状態にする</text>
+  <line x1="390" y1="189" x2="435" y2="189" stroke="#2163A7" stroke-width="3" marker-end="url(#ar)"/>
+  <rect x="435" y="94" width="330" height="190" rx="12" ry="12" fill="#F8FCFF" stroke="#90B9DA" stroke-width="2"/>
+  <text x="600" y="132" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="18" fill="#232A34" text-anchor="middle" font-weight="normal">2. 委譲する</text>
+  <line x1="475" y1="148" x2="725" y2="148" stroke="#CDD6DE" stroke-width="2" stroke-linecap="round"/>
+  <text x="600" y="180" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13" fill="#3E4148" text-anchor="middle" font-weight="normal">定型実装・テスト作成・</text>
+  <text x="600" y="200" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13" fill="#3E4148" text-anchor="middle" font-weight="normal">ドキュメント作成を任せる</text>
+  <text x="600" y="232" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13" fill="#3E4148" text-anchor="middle" font-weight="normal">前提条件と制約を明示して渡す</text>
+  <line x1="765" y1="189" x2="810" y2="189" stroke="#2163A7" stroke-width="3" marker-end="url(#ar)"/>
+  <rect x="810" y="94" width="330" height="190" rx="12" ry="12" fill="#F8FAFC" stroke="#2163A7" stroke-width="2.5"/>
+  <text x="975" y="132" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="18" fill="#232A34" text-anchor="middle" font-weight="normal">3. 検証する</text>
+  <line x1="850" y1="148" x2="1100" y2="148" stroke="#CDD6DE" stroke-width="2" stroke-linecap="round"/>
+  <text x="975" y="180" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13" fill="#3E4148" text-anchor="middle" font-weight="normal">要件・設計・セキュリティ・</text>
+  <text x="975" y="200" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13" fill="#3E4148" text-anchor="middle" font-weight="normal">品質基準を満たすか確認する</text>
+  <text x="975" y="232" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13" fill="#3E4148" text-anchor="middle" font-weight="normal">動作だけでなく異常系・運用・</text>
+  <text x="975" y="252" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13" fill="#3E4148" text-anchor="middle" font-weight="normal">将来の変更まで見る</text>
+  <polyline points="1000,284 1000,336 225,336 225,284" fill="none" stroke="#2163A7" stroke-width="3" stroke-linejoin="round" marker-end="url(#ar)"/>
+  <text x="612" y="362" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="14" fill="#2163A7" text-anchor="middle" font-weight="normal">検証で見つかった不足は、理解の段階へ戻して回し直す</text>
+  <text x="612" y="406" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13" fill="#52555B" text-anchor="middle" font-weight="normal">人間が意思決定を行い、AI が実行を加速する。責任の対象はコード記述から設計判断と成果物の評価へ移る</text>
+  <text x="30" y="480" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13" fill="#52555B" text-anchor="start" font-weight="normal">AI へ任せる範囲が広がるほど、3 の検証で確認すべき整合性の範囲も広がる</text>
 </svg>
