@@ -1,47 +1,50 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="670" viewBox="0 0 1200 670">
   <defs>
-    <marker id="ar" markerWidth="9" markerHeight="7" refX="8.5" refY="3.5" orient="auto">
-      <path d="M0,0 L9,3.5 L0,7 z" fill="#0F4332"/>
+    <marker id="ar" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 z" fill="#2163A7"/>
+    </marker>
+    <marker id="arR" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 z" fill="#B4472F"/>
     </marker>
   </defs>
-  <rect width="1200" height="560" fill="#F7F5EF"/>
-  <text x="28" y="40" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="20" fill="#0F4332" text-anchor="start" font-weight="600">Next.js をどこまで使うかの3パターン</text>
-  <line x1="28" y1="54" x2="1172" y2="54" stroke="#C6CEC6" stroke-width="1"/>
-  <rect x="60" y="80" width="360" height="400" fill="none" stroke="#C6CEC6" stroke-width="1"/>
-  <text x="240" y="112" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="16" fill="#0F4332" text-anchor="middle" font-weight="600">A. Next.js のみ</text>
-  <rect x="100" y="140" width="280" height="62" fill="#EFEBE1" stroke="#C6CEC6" stroke-width="1"/>
-  <text x="240" y="178" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="15" fill="#16241F" text-anchor="middle" font-weight="normal">Browser</text>
-  <line x1="240" y1="202" x2="240" y2="236" stroke="#0F4332" stroke-width="1.5" marker-end="url(#ar)"/>
-  <rect x="100" y="236" width="280" height="62" fill="#E6EDE6" stroke="#0F4332" stroke-width="1.5"/>
-  <text x="240" y="274" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="15" fill="#16241F" text-anchor="middle" font-weight="600">Next.js</text>
-  <line x1="240" y1="298" x2="240" y2="332" stroke="#0F4332" stroke-width="1.5" marker-end="url(#ar)"/>
-  <rect x="100" y="332" width="280" height="62" fill="#EFEBE1" stroke="#C6CEC6" stroke-width="1"/>
-  <text x="240" y="370" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="15" fill="#16241F" text-anchor="middle" font-weight="normal">Database</text>
-  <text x="240" y="462" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="13" fill="#5D6B64" text-anchor="middle" font-weight="normal">小〜中規模を1つで完結</text>
-  <rect x="420" y="80" width="360" height="400" fill="none" stroke="#C6CEC6" stroke-width="1"/>
-  <text x="600" y="112" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="16" fill="#0F4332" text-anchor="middle" font-weight="600">B. BFF として使う</text>
-  <rect x="460" y="140" width="280" height="62" fill="#EFEBE1" stroke="#C6CEC6" stroke-width="1"/>
-  <text x="600" y="178" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="15" fill="#16241F" text-anchor="middle" font-weight="normal">Browser</text>
-  <line x1="600" y1="202" x2="600" y2="236" stroke="#0F4332" stroke-width="1.5" marker-end="url(#ar)"/>
-  <rect x="460" y="236" width="280" height="62" fill="#E6EDE6" stroke="#0F4332" stroke-width="1.5"/>
-  <text x="600" y="274" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="15" fill="#16241F" text-anchor="middle" font-weight="600">Next.js</text>
-  <line x1="600" y1="298" x2="600" y2="332" stroke="#0F4332" stroke-width="1.5" marker-end="url(#ar)"/>
-  <rect x="460" y="332" width="280" height="62" fill="#EFEBE1" stroke="#C6CEC6" stroke-width="1"/>
-  <text x="600" y="370" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="15" fill="#16241F" text-anchor="middle" font-weight="normal">Backend API</text>
-  <line x1="600" y1="394" x2="600" y2="428" stroke="#0F4332" stroke-width="1.5" marker-end="url(#ar)"/>
-  <rect x="460" y="428" width="280" height="62" fill="#EFEBE1" stroke="#C6CEC6" stroke-width="1"/>
-  <text x="600" y="466" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="15" fill="#16241F" text-anchor="middle" font-weight="normal">Database</text>
-  <text x="600" y="462" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="13" fill="#5D6B64" text-anchor="middle" font-weight="normal">既存API資産を活かす</text>
-  <rect x="780" y="80" width="360" height="400" fill="none" stroke="#C6CEC6" stroke-width="1"/>
-  <text x="960" y="112" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="16" fill="#0F4332" text-anchor="middle" font-weight="600">C. フロントとして使う</text>
-  <rect x="820" y="140" width="280" height="62" fill="#EFEBE1" stroke="#C6CEC6" stroke-width="1"/>
-  <text x="960" y="178" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="15" fill="#16241F" text-anchor="middle" font-weight="normal">Browser</text>
-  <line x1="960" y1="202" x2="960" y2="236" stroke="#0F4332" stroke-width="1.5" marker-end="url(#ar)"/>
-  <rect x="820" y="236" width="280" height="62" fill="#E6EDE6" stroke="#0F4332" stroke-width="1.5"/>
-  <text x="960" y="274" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="15" fill="#16241F" text-anchor="middle" font-weight="600">Next.js</text>
-  <line x1="960" y1="298" x2="960" y2="332" stroke="#0F4332" stroke-width="1.5" marker-end="url(#ar)"/>
-  <rect x="820" y="332" width="280" height="62" fill="#EFEBE1" stroke="#C6CEC6" stroke-width="1"/>
-  <text x="960" y="370" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="15" fill="#16241F" text-anchor="middle" font-weight="normal">既存のAPI基盤</text>
-  <text x="960" y="462" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="13" fill="#5D6B64" text-anchor="middle" font-weight="normal">バックエンドは独立運用</text>
-  <text x="28" y="542" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="12" fill="#5D6B64" text-anchor="start" font-weight="normal">フルスタックで書けることと、すべてをNext.jsへ集約すべきことは別。クライアント数と運用体制で選ぶ</text>
+  <rect width="1200" height="670" fill="#FFFFFF"/>
+  <text x="30" y="46" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="25" fill="#232A34" text-anchor="start" font-weight="normal">Next.js をどこまで使うかの3パターン</text>
+  <line x1="30" y1="64" x2="1170" y2="64" stroke="#ECECEC" stroke-width="2" stroke-linecap="round"/>
+  <rect x="40" y="86" width="374" height="512" rx="12" ry="12" fill="none" stroke="#CDD6DE" stroke-width="2"/>
+  <text x="227" y="120" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="18" fill="#232A34" text-anchor="middle" font-weight="normal">A. Next.js のみ</text>
+  <rect x="82" y="148" width="290" height="58" rx="12" ry="12" fill="#F8FCFF" stroke="#90B9DA" stroke-width="2.5"/>
+  <text x="227" y="185" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="16" fill="#3E4148" text-anchor="middle" font-weight="normal">Browser</text>
+  <line x1="227" y1="210" x2="227" y2="248" stroke="#2163A7" stroke-width="3" marker-end="url(#ar)"/>
+  <rect x="82" y="252" width="290" height="58" rx="12" ry="12" fill="#F8FAFC" stroke="#2163A7" stroke-width="2.5"/>
+  <text x="227" y="289" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="16" fill="#232A34" text-anchor="middle" font-weight="normal">Next.js</text>
+  <line x1="227" y1="314" x2="227" y2="352" stroke="#2163A7" stroke-width="3" marker-end="url(#ar)"/>
+  <rect x="82" y="356" width="290" height="58" rx="12" ry="12" fill="#F8FCFF" stroke="#90B9DA" stroke-width="2.5"/>
+  <text x="227" y="393" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="16" fill="#3E4148" text-anchor="middle" font-weight="normal">Database</text>
+  <text x="227" y="572" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="14" fill="#52555B" text-anchor="middle" font-weight="normal">小〜中規模を1つで完結</text>
+  <rect x="413" y="86" width="374" height="512" rx="12" ry="12" fill="none" stroke="#CDD6DE" stroke-width="2"/>
+  <text x="600" y="120" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="18" fill="#232A34" text-anchor="middle" font-weight="normal">B. BFF として使う</text>
+  <rect x="455" y="148" width="290" height="58" rx="12" ry="12" fill="#F8FCFF" stroke="#90B9DA" stroke-width="2.5"/>
+  <text x="600" y="185" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="16" fill="#3E4148" text-anchor="middle" font-weight="normal">Browser</text>
+  <line x1="600" y1="210" x2="600" y2="248" stroke="#2163A7" stroke-width="3" marker-end="url(#ar)"/>
+  <rect x="455" y="252" width="290" height="58" rx="12" ry="12" fill="#F8FAFC" stroke="#2163A7" stroke-width="2.5"/>
+  <text x="600" y="289" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="16" fill="#232A34" text-anchor="middle" font-weight="normal">Next.js</text>
+  <line x1="600" y1="314" x2="600" y2="352" stroke="#2163A7" stroke-width="3" marker-end="url(#ar)"/>
+  <rect x="455" y="356" width="290" height="58" rx="12" ry="12" fill="#F8FCFF" stroke="#90B9DA" stroke-width="2.5"/>
+  <text x="600" y="393" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="16" fill="#3E4148" text-anchor="middle" font-weight="normal">Backend API</text>
+  <line x1="600" y1="418" x2="600" y2="456" stroke="#2163A7" stroke-width="3" marker-end="url(#ar)"/>
+  <rect x="455" y="460" width="290" height="58" rx="12" ry="12" fill="#F8FCFF" stroke="#90B9DA" stroke-width="2.5"/>
+  <text x="600" y="497" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="16" fill="#3E4148" text-anchor="middle" font-weight="normal">Database</text>
+  <text x="600" y="572" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="14" fill="#52555B" text-anchor="middle" font-weight="normal">既存API資産を活かす</text>
+  <rect x="786" y="86" width="374" height="512" rx="12" ry="12" fill="none" stroke="#CDD6DE" stroke-width="2"/>
+  <text x="973" y="120" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="18" fill="#232A34" text-anchor="middle" font-weight="normal">C. フロントとして使う</text>
+  <rect x="828" y="148" width="290" height="58" rx="12" ry="12" fill="#F8FCFF" stroke="#90B9DA" stroke-width="2.5"/>
+  <text x="973" y="185" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="16" fill="#3E4148" text-anchor="middle" font-weight="normal">Browser</text>
+  <line x1="973" y1="210" x2="973" y2="248" stroke="#2163A7" stroke-width="3" marker-end="url(#ar)"/>
+  <rect x="828" y="252" width="290" height="58" rx="12" ry="12" fill="#F8FAFC" stroke="#2163A7" stroke-width="2.5"/>
+  <text x="973" y="289" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="16" fill="#232A34" text-anchor="middle" font-weight="normal">Next.js</text>
+  <line x1="973" y1="314" x2="973" y2="352" stroke="#2163A7" stroke-width="3" marker-end="url(#ar)"/>
+  <rect x="828" y="356" width="290" height="58" rx="12" ry="12" fill="#F8FCFF" stroke="#90B9DA" stroke-width="2.5"/>
+  <text x="973" y="393" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="16" fill="#3E4148" text-anchor="middle" font-weight="normal">既存のAPI基盤</text>
+  <text x="973" y="572" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="14" fill="#52555B" text-anchor="middle" font-weight="normal">バックエンドは独立運用</text>
+  <text x="30" y="644" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13" fill="#52555B" text-anchor="start" font-weight="normal">フルスタックで書けることと、すべてを Next.js へ集約すべきことは別。クライアント数と運用体制で選ぶ</text>
 </svg>
