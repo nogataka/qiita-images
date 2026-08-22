@@ -1,47 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="790" viewBox="0 0 1200 790">
   <defs>
-    <marker id="ar" markerWidth="9" markerHeight="7" refX="8.5" refY="3.5" orient="auto">
-      <path d="M0,0 L9,3.5 L0,7 z" fill="#0F4332"/>
+    <marker id="ar" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 z" fill="#2163A7"/>
     </marker>
-    <marker id="arR" markerWidth="9" markerHeight="7" refX="8.5" refY="3.5" orient="auto">
-      <path d="M0,0 L9,3.5 L0,7 z" fill="#8C3A2B"/>
+    <marker id="arR" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 z" fill="#B4472F"/>
     </marker>
   </defs>
-  <rect width="1200" height="620" fill="#F7F5EF"/>
-  <text x="28" y="40" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="20" fill="#0F4332" text-anchor="start" font-weight="600">Server Actions と Route Handler の選定フロー</text>
-  <line x1="28" y1="54" x2="1172" y2="54" stroke="#C6CEC6" stroke-width="1"/>
-  <polygon points="600,72.0 830.0,110 600,148.0 370.0,110" fill="#E6EDE6" stroke="#0F4332" stroke-width="1.5"/>
-  <text x="600" y="110" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="14" fill="#16241F" text-anchor="middle" font-weight="600">サーバー状態を更新する処理か</text>
-  <polyline points="370,110 250,110 250,182" fill="none" stroke="#0F4332" stroke-width="1.5" marker-end="url(#ar)"/>
-  <text x="262" y="100" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="12" fill="#5D6B64" text-anchor="start" font-weight="normal">いいえ</text>
-  <polygon points="250,182.0 440.0,220 250,258.0 60.0,220" fill="#E6EDE6" stroke="#0F4332" stroke-width="1.5"/>
-  <text x="250" y="214" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="14" fill="#16241F" text-anchor="middle" font-weight="600">Server Component から</text>
-  <text x="250" y="236" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="12" fill="#5D6B64" text-anchor="middle" font-weight="normal">取得できるか</text>
-  <polyline points="250,258 250,318" fill="none" stroke="#0F4332" stroke-width="1.5" marker-end="url(#ar)"/>
-  <text x="262" y="296" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="12" fill="#5D6B64" text-anchor="start" font-weight="normal">はい</text>
-  <rect x="100" y="318" width="300" height="62" fill="#EFEBE1" stroke="#C6CEC6" stroke-width="1"/>
-  <text x="250" y="346" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="15" fill="#0F4332" text-anchor="middle" font-weight="600">Service / DB を直接呼ぶ</text>
-  <text x="250" y="366" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="12" fill="#5D6B64" text-anchor="middle" font-weight="normal">自分の API を経由しない</text>
-  <polyline points="440,220 500,220 500,438" fill="none" stroke="#0F4332" stroke-width="1.5" marker-end="url(#ar)"/>
-  <text x="510" y="268" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="12" fill="#5D6B64" text-anchor="start" font-weight="normal">いいえ</text>
-  <rect x="350" y="438" width="300" height="62" fill="#EFEBE1" stroke="#C6CEC6" stroke-width="1"/>
-  <text x="500" y="466" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="15" fill="#0F4332" text-anchor="middle" font-weight="600">Route Handler</text>
-  <text x="500" y="486" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="12" fill="#5D6B64" text-anchor="middle" font-weight="normal">ブラウザから動的に取得する</text>
-  <polyline points="830,110 950,110 950,182" fill="none" stroke="#0F4332" stroke-width="1.5" marker-end="url(#ar)"/>
-  <text x="900" y="100" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="12" fill="#5D6B64" text-anchor="start" font-weight="normal">はい</text>
-  <polygon points="950,182.0 1150.0,220 950,258.0 750.0,220" fill="#E6EDE6" stroke="#0F4332" stroke-width="1.5"/>
-  <text x="950" y="214" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="14" fill="#16241F" text-anchor="middle" font-weight="600">Next.js 画面以外から</text>
-  <text x="950" y="236" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="12" fill="#5D6B64" text-anchor="middle" font-weight="normal">呼ばれる可能性があるか</text>
-  <polyline points="950,258 950,318" fill="none" stroke="#0F4332" stroke-width="1.5" marker-end="url(#ar)"/>
-  <text x="962" y="296" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="12" fill="#5D6B64" text-anchor="start" font-weight="normal">はい</text>
-  <rect x="800" y="318" width="300" height="62" fill="#EFEBE1" stroke="#C6CEC6" stroke-width="1"/>
-  <text x="950" y="346" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="15" fill="#0F4332" text-anchor="middle" font-weight="600">Route Handler</text>
-  <text x="950" y="366" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="12" fill="#5D6B64" text-anchor="middle" font-weight="normal">外部 API・Webhook・モバイル</text>
-  <polyline points="1150,220 1150,469 1000,469" fill="none" stroke="#0F4332" stroke-width="1.5" marker-end="url(#ar)"/>
-  <text x="1162" y="268" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="12" fill="#5D6B64" text-anchor="start" font-weight="normal">いいえ</text>
-  <rect x="700" y="438" width="300" height="62" fill="#EFEBE1" stroke="#C6CEC6" stroke-width="1"/>
-  <text x="850" y="466" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="15" fill="#0F4332" text-anchor="middle" font-weight="600">Server Action</text>
-  <text x="850" y="486" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="12" fill="#5D6B64" text-anchor="middle" font-weight="normal">画面専用の登録・更新・削除</text>
-  <text x="600" y="552" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="13" fill="#0F4332" text-anchor="middle" font-weight="normal">Webhook・ファイル配信・SSE・CORS 制御が要るなら、更新処理でも Route Handler を選ぶ</text>
-  <text x="28" y="602" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="12" fill="#5D6B64" text-anchor="start" font-weight="normal">分岐は2つだけ。サーバー状態を更新するか、Next.js の画面以外から呼ばれるか</text>
+  <rect width="1200" height="790" fill="#FFFFFF"/>
+  <text x="30" y="46" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="25" fill="#232A34" text-anchor="start" font-weight="normal">Server Actions と Route Handler の選定フロー</text>
+  <line x1="30" y1="64" x2="1170" y2="64" stroke="#ECECEC" stroke-width="2" stroke-linecap="round"/>
+  <rect x="36" y="100" width="500" height="156" rx="12" ry="12" fill="#F8FAFC" stroke="#2163A7" stroke-width="2.5"/>
+  <text x="68" y="152" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="21" fill="#232A34" text-anchor="start" font-weight="normal">サーバー状態を更新するか？</text>
+  <text x="68" y="192" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="15" fill="#3E4148" text-anchor="start" font-weight="normal">読み取りだけか、書き込みが伴うかを</text>
+  <text x="68" y="218" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="15" fill="#3E4148" text-anchor="start" font-weight="normal">最初に分ける</text>
+  <rect x="654" y="104" width="510" height="148" rx="12" ry="12" fill="#F8FCFF" stroke="#90B9DA" stroke-width="2.5"/>
+  <text x="686" y="152" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="20" fill="#232A34" text-anchor="start" font-weight="normal">いいえ → 取得の経路を選ぶ</text>
+  <text x="686" y="192" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="15" fill="#3E4148" text-anchor="start" font-weight="normal">Server Component から取得できる</text>
+  <text x="686" y="218" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="15" fill="#3E4148" text-anchor="start" font-weight="normal">　→ Service / DB を直接呼ぶ</text>
+  <text x="686" y="244" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="15" fill="#3E4148" text-anchor="start" font-weight="normal">ブラウザから動的に取得する → Route Handler</text>
+  <line x1="536" y1="178.0" x2="654" y2="178.0" stroke="#2163A7" stroke-width="3" marker-end="url(#ar)"/>
+  <text x="600" y="164.0" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="16" fill="#2163A7" text-anchor="middle" font-weight="normal">いいえ</text>
+  <line x1="286.0" y1="256" x2="286.0" y2="326" stroke="#2163A7" stroke-width="3" marker-end="url(#ar)"/>
+  <text x="302.0" y="298" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="16" fill="#2163A7" text-anchor="start" font-weight="normal">はい</text>
+  <rect x="36" y="326" width="500" height="156" rx="12" ry="12" fill="#F8FAFC" stroke="#2163A7" stroke-width="2.5"/>
+  <text x="68" y="378" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="21" fill="#232A34" text-anchor="start" font-weight="normal">Next.js の画面以外から呼ばれるか？</text>
+  <text x="68" y="418" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="15" fill="#3E4148" text-anchor="start" font-weight="normal">モバイルアプリ・外部SaaS・Webhook・</text>
+  <text x="68" y="444" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="15" fill="#3E4148" text-anchor="start" font-weight="normal">パートナー向け API の予定があるか</text>
+  <rect x="654" y="330" width="510" height="148" rx="12" ry="12" fill="#F8FCFF" stroke="#90B9DA" stroke-width="2.5"/>
+  <text x="686" y="378" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="20" fill="#232A34" text-anchor="start" font-weight="normal">はい → Route Handler</text>
+  <text x="686" y="418" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="15" fill="#3E4148" text-anchor="start" font-weight="normal">URL・メソッド・ステータスを契約にする</text>
+  <text x="686" y="444" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="15" fill="#3E4148" text-anchor="start" font-weight="normal">例: 公開 API / Webhook / OAuth</text>
+  <line x1="536" y1="404.0" x2="654" y2="404.0" stroke="#2163A7" stroke-width="3" marker-end="url(#ar)"/>
+  <text x="606" y="390.0" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="16" fill="#2163A7" text-anchor="middle" font-weight="normal">はい</text>
+  <line x1="286.0" y1="482" x2="286.0" y2="552" stroke="#2163A7" stroke-width="3" marker-end="url(#ar)"/>
+  <text x="302.0" y="524" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="16" fill="#2163A7" text-anchor="start" font-weight="normal">いいえ</text>
+  <rect x="36" y="552" width="500" height="156" rx="12" ry="12" fill="#F8FAFC" stroke="#2163A7" stroke-width="2.5"/>
+  <text x="68" y="604" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="21" fill="#232A34" text-anchor="start" font-weight="normal">HTTP を直接制御する必要があるか？</text>
+  <text x="68" y="644" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="15" fill="#3E4148" text-anchor="start" font-weight="normal">Webhook・ファイル配信・SSE・CORS 制御が</text>
+  <text x="68" y="670" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="15" fill="#3E4148" text-anchor="start" font-weight="normal">要るなら、更新処理でも例外扱いにする</text>
+  <rect x="654" y="556" width="510" height="148" rx="12" ry="12" fill="#F8FCFF" stroke="#90B9DA" stroke-width="2.5"/>
+  <text x="686" y="604" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="20" fill="#232A34" text-anchor="start" font-weight="normal">いいえ → Server Action</text>
+  <text x="686" y="644" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="15" fill="#3E4148" text-anchor="start" font-weight="normal">Next.js 画面専用の登録・更新・削除</text>
+  <text x="686" y="670" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="15" fill="#3E4148" text-anchor="start" font-weight="normal">更新後の再検証まで React に統合できる</text>
+  <line x1="536" y1="630.0" x2="654" y2="630.0" stroke="#2163A7" stroke-width="3" marker-end="url(#ar)"/>
+  <text x="600" y="616.0" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="16" fill="#2163A7" text-anchor="middle" font-weight="normal">いいえ</text>
+  <text x="36" y="752" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13" fill="#52555B" text-anchor="start" font-weight="normal">分岐は2つだけ。サーバー状態を更新するか、Next.js の画面以外から呼ばれるか。3段目は更新処理でも Route Handler を選ぶ例外</text>
 </svg>
