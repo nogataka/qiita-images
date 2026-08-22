@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560">
+  <defs>
+    <marker id="ar" markerWidth="9" markerHeight="7" refX="8.5" refY="3.5" orient="auto">
+      <path d="M0,0 L9,3.5 L0,7 z" fill="#0F4332"/>
+    </marker>
+    <marker id="arR" markerWidth="9" markerHeight="7" refX="8.5" refY="3.5" orient="auto">
+      <path d="M0,0 L9,3.5 L0,7 z" fill="#8C3A2B"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="560" fill="#F7F5EF"/>
+  <text x="28" y="40" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="20" fill="#0F4332" text-anchor="start" font-weight="600">業務ロジックは Service 層へ寄せる</text>
+  <line x1="28" y1="54" x2="1172" y2="54" stroke="#C6CEC6" stroke-width="1"/>
+  <rect x="60" y="90" width="1080" height="74" fill="none" stroke="#C6CEC6" stroke-width="1"/>
+  <text x="90" y="132" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="15" fill="#5D6B64" text-anchor="start" font-weight="normal">UI</text>
+  <rect x="260" y="100" width="360" height="54" fill="#E6EDE6" stroke="#0F4332" stroke-width="1.5"/>
+  <text x="440.0" y="133.0" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="15" fill="#16241F" text-anchor="middle" font-weight="600">Server Action</text>
+  <rect x="680" y="100" width="360" height="54" fill="#E6EDE6" stroke="#0F4332" stroke-width="1.5"/>
+  <text x="860.0" y="133.0" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="15" fill="#16241F" text-anchor="middle" font-weight="600">Route Handler</text>
+  <text x="440" y="186" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="13" fill="#5D6B64" text-anchor="middle" font-weight="normal">Next.js 画面専用の更新</text>
+  <text x="860" y="186" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="13" fill="#5D6B64" text-anchor="middle" font-weight="normal">外部クライアント向け HTTP</text>
+  <polyline points="440,200 440,226 600,226 600,250" fill="none" stroke="#0F4332" stroke-width="1.5" marker-end="url(#ar)"/>
+  <polyline points="860,200 860,226 600,226" fill="none" stroke="#0F4332" stroke-width="1.5"/>
+  <rect x="260" y="250" width="680" height="60" fill="#E6EDE6" stroke="#0F4332" stroke-width="1.5"/>
+  <text x="600.0" y="278" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="16" fill="#16241F" text-anchor="middle" font-weight="600">Application Service / Use Case</text>
+  <text x="600.0" y="300" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="13" fill="#5D6B64" text-anchor="middle" font-weight="normal">認証済みの前提で業務ルールを実行する</text>
+  <line x1="600" y1="310" x2="600" y2="334" stroke="#0F4332" stroke-width="1.5" marker-end="url(#ar)"/>
+  <rect x="260" y="334" width="680" height="60" fill="#EFEBE1" stroke="#0F4332" stroke-width="1.5"/>
+  <text x="600.0" y="362" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="16" fill="#16241F" text-anchor="middle" font-weight="600">Domain Logic</text>
+  <text x="600.0" y="384" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="13" fill="#5D6B64" text-anchor="middle" font-weight="normal">料金計算・状態遷移などの中核ルール</text>
+  <line x1="600" y1="394" x2="600" y2="418" stroke="#0F4332" stroke-width="1.5" marker-end="url(#ar)"/>
+  <rect x="260" y="418" width="680" height="60" fill="#EFEBE1" stroke="#0F4332" stroke-width="1.5"/>
+  <text x="600.0" y="446" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="16" fill="#16241F" text-anchor="middle" font-weight="600">Repository / Database</text>
+  <text x="600.0" y="468" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="13" fill="#5D6B64" text-anchor="middle" font-weight="normal">永続化の詳細を隠す</text>
+  <text x="28" y="542" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans','BIZ UDGothic',sans-serif" font-size="12" fill="#5D6B64" text-anchor="start" font-weight="normal">Server Action は UI 向けアダプター、Route Handler は HTTP 向けアダプター。後から方式を足しても中核は書き直さずに済む</text>
+</svg>
