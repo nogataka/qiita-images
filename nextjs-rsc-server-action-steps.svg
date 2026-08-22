@@ -33,19 +33,19 @@
   <rect x="60" y="402" width="520" height="46" rx="12" ry="12" fill="#F8FCFF" stroke="#90B9DA" stroke-width="2"/>
   <rect x="60" y="402" width="46" height="46" rx="10" ry="10" fill="#2163A7" stroke="none"/>
   <text x="83" y="433" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle" font-weight="normal">6</text>
-  <text x="128" y="432" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="15" fill="#3E4148" text-anchor="start" font-weight="normal">認証・認可・入力検証を行う</text>
+  <text x="128" y="432" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="15" fill="#3E4148" text-anchor="start" font-weight="normal">認証・認可・入力検証を行う（自分で書く）</text>
   <rect x="640" y="92" width="520" height="46" rx="12" ry="12" fill="#F8FAFC" stroke="#90B9DA" stroke-width="2"/>
   <rect x="640" y="92" width="46" height="46" rx="10" ry="10" fill="#2163A7" stroke="none"/>
   <text x="663" y="123" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle" font-weight="normal">7</text>
-  <text x="708" y="122" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="15" fill="#3E4148" text-anchor="start" font-weight="normal">データベースを更新する</text>
+  <text x="708" y="122" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="15" fill="#3E4148" text-anchor="start" font-weight="normal">データベースを更新する（自分で書く）</text>
   <rect x="640" y="154" width="520" height="46" rx="12" ry="12" fill="#F8FCFF" stroke="#90B9DA" stroke-width="2"/>
   <rect x="640" y="154" width="46" height="46" rx="10" ry="10" fill="#2163A7" stroke="none"/>
   <text x="663" y="185" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle" font-weight="normal">8</text>
-  <text x="708" y="184" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="15" fill="#3E4148" text-anchor="start" font-weight="normal">キャッシュを再検証する</text>
+  <text x="708" y="184" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="15" fill="#3E4148" text-anchor="start" font-weight="normal">必要ならキャッシュを再検証する</text>
   <rect x="640" y="216" width="520" height="46" rx="12" ry="12" fill="#F8FAFC" stroke="#90B9DA" stroke-width="2"/>
   <rect x="640" y="216" width="46" height="46" rx="10" ry="10" fill="#2163A7" stroke="none"/>
   <text x="663" y="247" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle" font-weight="normal">9</text>
-  <text x="708" y="246" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="15" fill="#3E4148" text-anchor="start" font-weight="normal">関連する Server Components を再実行する</text>
+  <text x="708" y="246" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="15" fill="#3E4148" text-anchor="start" font-weight="normal">再検証したなら Server Components を再実行する</text>
   <rect x="640" y="278" width="520" height="46" rx="12" ry="12" fill="#F8FCFF" stroke="#90B9DA" stroke-width="2"/>
   <rect x="640" y="278" width="46" height="46" rx="10" ry="10" fill="#2163A7" stroke="none"/>
   <text x="663" y="309" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle" font-weight="normal">10</text>
@@ -53,11 +53,11 @@
   <rect x="640" y="340" width="520" height="46" rx="12" ry="12" fill="#F8FAFC" stroke="#90B9DA" stroke-width="2"/>
   <rect x="640" y="340" width="46" height="46" rx="10" ry="10" fill="#2163A7" stroke="none"/>
   <text x="663" y="371" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle" font-weight="normal">11</text>
-  <text x="708" y="370" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="15" fill="#3E4148" text-anchor="start" font-weight="normal">Action の結果と RSC Payload を返す</text>
+  <text x="708" y="370" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="15" fill="#3E4148" text-anchor="start" font-weight="normal">Action の結果と、あれば RSC Payload を返す</text>
   <rect x="640" y="402" width="520" height="46" rx="12" ry="12" fill="#F8FCFF" stroke="#90B9DA" stroke-width="2"/>
   <rect x="640" y="402" width="46" height="46" rx="10" ry="10" fill="#2163A7" stroke="none"/>
   <text x="663" y="433" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="16" fill="#FFFFFF" text-anchor="middle" font-weight="normal">12</text>
   <text x="708" y="432" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="15" fill="#3E4148" text-anchor="start" font-weight="normal">React が既存ツリーへ反映する</text>
   <polyline points="82,448 82,470 640,470 640,92" fill="none" stroke="#CDD6DE" stroke-width="2" stroke-linejoin="round" marker-end="url(#ar)"/>
-  <text x="30" y="536" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13" fill="#52555B" text-anchor="start" font-weight="normal">6番の検証は必須。コード上は関数呼び出しでも、2番のとおり実体はネットワーク越しの外部入力になる</text>
+  <text x="30" y="536" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13" fill="#52555B" text-anchor="start" font-weight="normal">6〜8 は Next.js の自動処理ではなく Action 内に自分で書く。9以降は再検証した場合に起きる</text>
 </svg>
