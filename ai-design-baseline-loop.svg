@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760">
+  <defs>
+    <marker id="ar" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 z" fill="#2163A7"/>
+    </marker>
+    <marker id="arR" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 z" fill="#B4472F"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="760" fill="#FFFFFF"/>
+  <text x="30" y="46" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="25" fill="#232A34" text-anchor="start" font-weight="normal">基準線を起点に「詳細化」と「設計変更」を分ける</text>
+  <line x1="30" y1="64" x2="1170" y2="64" stroke="#ECECEC" stroke-width="2" stroke-linecap="round"/>
+  <rect x="400" y="100" width="400" height="62" rx="12" ry="12" fill="#F8FCFF" stroke="#90B9DA" stroke-width="2.5"/>
+  <text x="600.0" y="137.0" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="16" fill="#232A34" text-anchor="middle" font-weight="normal">Baseline v1.0</text>
+  <line x1="600.0" y1="168" x2="600.0" y2="194" stroke="#2163A7" stroke-width="2.2" marker-end="url(#ar)"/>
+  <rect x="400" y="200" width="400" height="62" rx="12" ry="12" fill="#F8FAFC" stroke="#2163A7" stroke-width="2.5"/>
+  <text x="600.0" y="237.0" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="16" fill="#232A34" text-anchor="middle" font-weight="normal">タスクを実装する</text>
+  <line x1="600.0" y1="268" x2="600.0" y2="294" stroke="#2163A7" stroke-width="2.2" marker-end="url(#ar)"/>
+  <rect x="400" y="300" width="400" height="78" rx="12" ry="12" fill="#F8FAFC" stroke="#2163A7" stroke-width="2.5"/>
+  <text x="600.0" y="332" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="16" fill="#232A34" text-anchor="middle" font-weight="normal">基準線との差分を判定する</text>
+  <text x="600.0" y="357" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13" fill="#3E4148" text-anchor="middle" font-weight="normal">既存設計の範囲内か、前提を変えるか</text>
+  <line x1="600.0" y1="384" x2="600.0" y2="412" stroke="#2163A7" stroke-width="2.2" stroke-linecap="round"/>
+  <line x1="275.0" y1="412" x2="925.0" y2="412" stroke="#2163A7" stroke-width="2.2" stroke-linecap="round"/>
+  <line x1="275.0" y1="412" x2="275.0" y2="436" stroke="#2163A7" stroke-width="2.2" marker-end="url(#ar)"/>
+  <line x1="925.0" y1="412" x2="925.0" y2="436" stroke="#2163A7" stroke-width="2.2" marker-end="url(#ar)"/>
+  <text x="261.0" y="400" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="13.5" fill="#2163A7" text-anchor="end" font-weight="normal">範囲内</text>
+  <text x="939.0" y="400" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="13.5" fill="#B4472F" text-anchor="start" font-weight="normal">前提を変える</text>
+  <rect x="90" y="442" width="370" height="86" rx="12" ry="12" fill="#F8FAFC" stroke="#2163A7" stroke-width="2.5"/>
+  <text x="275.0" y="474" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="16" fill="#232A34" text-anchor="middle" font-weight="normal">詳細化</text>
+  <text x="275.0" y="499" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13" fill="#3E4148" text-anchor="middle" font-weight="normal">配置や実装方法の具体化。記録して次へ進む</text>
+  <rect x="740" y="442" width="370" height="86" rx="12" ry="12" fill="#FDF2EF" stroke="#B4472F" stroke-width="2.5"/>
+  <text x="925.0" y="474" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="16" fill="#232A34" text-anchor="middle" font-weight="normal">設計変更</text>
+  <text x="925.0" y="499" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13" fill="#3E4148" text-anchor="middle" font-weight="normal">Change Request を起票して判断を仰ぐ</text>
+  <polyline points="275.0,528 275.0,618 44,618 44,231 390,231" fill="none" stroke="#2163A7" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#ar)"/>
+  <text x="291.0" y="640" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13.5" fill="#2163A7" text-anchor="start" font-weight="normal">次のタスクへ</text>
+  <line x1="925.0" y1="528" x2="925.0" y2="590" stroke="#B4472F" stroke-width="2.2" marker-end="url(#arR)"/>
+  <rect x="740" y="596" width="370" height="78" rx="12" ry="12" fill="#F8FCFF" stroke="#90B9DA" stroke-width="2.5"/>
+  <text x="925.0" y="628" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="16" fill="#232A34" text-anchor="middle" font-weight="normal">承認されたら Baseline v1.1</text>
+  <text x="925.0" y="653" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13" fill="#3E4148" text-anchor="middle" font-weight="normal">更新してから実装へ戻す</text>
+  <polyline points="1110,635 1158,635 1158,131 810,131" fill="none" stroke="#B4472F" stroke-width="2.2" stroke-linejoin="round" marker-end="url(#arR)"/>
+  <text x="30" y="740" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13" fill="#52555B" text-anchor="start" font-weight="normal">設計は変えてよい。ただし、変えたことが差分として見える形にする。</text>
+</svg>
