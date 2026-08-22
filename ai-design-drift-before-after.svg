@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="790" viewBox="0 0 1200 790">
+  <defs>
+    <marker id="ar" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 z" fill="#2163A7"/>
+    </marker>
+    <marker id="arR" markerWidth="10" markerHeight="8" refX="9" refY="4" orient="auto">
+      <path d="M0,0 L10,4 L0,8 z" fill="#B4472F"/>
+    </marker>
+  </defs>
+  <rect width="1200" height="790" fill="#FFFFFF"/>
+  <text x="30" y="46" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="25" fill="#232A34" text-anchor="start" font-weight="normal">設計ドリフト：局所的には正しい判断が、全体では方針から外れる</text>
+  <line x1="30" y1="64" x2="1170" y2="64" stroke="#ECECEC" stroke-width="2" stroke-linecap="round"/>
+  <text x="100" y="108" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="17" fill="#2163A7" text-anchor="start" font-weight="normal">当初の設計</text>
+  <rect x="100" y="126" width="440" height="58" rx="12" ry="12" fill="#F8FAFC" stroke="#2163A7" stroke-width="2.5"/>
+  <text x="320.0" y="163" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="15.5" fill="#232A34" text-anchor="middle" font-weight="normal">Server Component</text>
+  <line x1="320.0" y1="190" x2="320.0" y2="206" stroke="#2163A7" stroke-width="2.2" marker-end="url(#ar)"/>
+  <rect x="100" y="210" width="440" height="58" rx="12" ry="12" fill="#F8FAFC" stroke="#2163A7" stroke-width="2.5"/>
+  <text x="320.0" y="247" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="15.5" fill="#232A34" text-anchor="middle" font-weight="normal">Server Action</text>
+  <line x1="320.0" y1="274" x2="320.0" y2="290" stroke="#2163A7" stroke-width="2.2" marker-end="url(#ar)"/>
+  <rect x="100" y="294" width="440" height="58" rx="12" ry="12" fill="#F8FAFC" stroke="#2163A7" stroke-width="2.5"/>
+  <text x="320.0" y="331" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="15.5" fill="#232A34" text-anchor="middle" font-weight="normal">Application Service</text>
+  <line x1="320.0" y1="358" x2="320.0" y2="374" stroke="#2163A7" stroke-width="2.2" marker-end="url(#ar)"/>
+  <rect x="100" y="378" width="440" height="58" rx="12" ry="12" fill="#F8FAFC" stroke="#2163A7" stroke-width="2.5"/>
+  <text x="320.0" y="415" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="15.5" fill="#232A34" text-anchor="middle" font-weight="normal">Repository</text>
+  <line x1="320.0" y1="442" x2="320.0" y2="458" stroke="#2163A7" stroke-width="2.2" marker-end="url(#ar)"/>
+  <rect x="100" y="462" width="440" height="58" rx="12" ry="12" fill="#F8FAFC" stroke="#2163A7" stroke-width="2.5"/>
+  <text x="320.0" y="499" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="15.5" fill="#232A34" text-anchor="middle" font-weight="normal">Database</text>
+  <text x="660" y="108" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="17" fill="#B4472F" text-anchor="start" font-weight="normal">実装後の構成</text>
+  <rect x="660" y="126" width="440" height="58" rx="12" ry="12" fill="#FDF2EF" stroke="#B4472F" stroke-width="2.5"/>
+  <text x="880.0" y="163" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="15.5" fill="#232A34" text-anchor="middle" font-weight="normal">Client Component</text>
+  <line x1="880.0" y1="190" x2="880.0" y2="206" stroke="#B4472F" stroke-width="2.2" marker-end="url(#arR)"/>
+  <rect x="660" y="210" width="440" height="58" rx="12" ry="12" fill="#FDF2EF" stroke="#B4472F" stroke-width="2.5"/>
+  <text x="880.0" y="247" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="15.5" fill="#232A34" text-anchor="middle" font-weight="normal">fetch</text>
+  <line x1="880.0" y1="274" x2="880.0" y2="290" stroke="#B4472F" stroke-width="2.2" marker-end="url(#arR)"/>
+  <rect x="660" y="294" width="440" height="58" rx="12" ry="12" fill="#FDF2EF" stroke="#B4472F" stroke-width="2.5"/>
+  <text x="880.0" y="331" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="15.5" fill="#232A34" text-anchor="middle" font-weight="normal">Route Handler</text>
+  <line x1="880.0" y1="358" x2="880.0" y2="374" stroke="#B4472F" stroke-width="2.2" marker-end="url(#arR)"/>
+  <rect x="660" y="378" width="440" height="58" rx="12" ry="12" fill="#FDF2EF" stroke="#B4472F" stroke-width="2.5"/>
+  <text x="880.0" y="415" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="15.5" fill="#232A34" text-anchor="middle" font-weight="normal">直接 ORM を呼び出す</text>
+  <text x="600" y="300" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="34" fill="#52555B" text-anchor="middle" font-weight="normal">→</text>
+  <text x="600" y="336" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="14" fill="#52555B" text-anchor="middle" font-weight="normal">ドリフト</text>
+  <rect x="100" y="552" width="1000" height="150" rx="12" ry="12" fill="#FFFFFF" stroke="#CDD6DE" stroke-width="2"/>
+  <text x="124" y="584" font-family="'Hiragino Kaku Gothic ProN W6','Hiragino Sans W6',sans-serif" font-size="15" fill="#232A34" text-anchor="start" font-weight="normal">積み重なった局所判断（それぞれには理由がある）</text>
+  <text x="124" y="614" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13.5" fill="#3E4148" text-anchor="start" font-weight="normal">・この画面はイベント処理が必要 → Client Component にする</text>
+  <text x="124" y="640" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13.5" fill="#3E4148" text-anchor="start" font-weight="normal">・既存の fetch ベースの実装に合わせたい → Route Handler を追加する</text>
+  <text x="124" y="666" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13.5" fill="#3E4148" text-anchor="start" font-weight="normal">・Route Handler からデータを更新したい → ここで直接 ORM を呼べば早い</text>
+  <text x="30" y="770" font-family="'Hiragino Kaku Gothic ProN','Hiragino Sans',sans-serif" font-size="13" fill="#52555B" text-anchor="start" font-weight="normal">問題は変更されたことではなく、変更されたと人間が気づかないまま進むこと。</text>
+</svg>
